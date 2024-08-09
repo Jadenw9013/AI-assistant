@@ -8,7 +8,7 @@ export default function Home() {
   const [message, setMessage] = useState("");
   const messagesEndRef = useRef(null);
 
-  const firstMessage = "Hi there! I'm the Headstarter virtual assistant. How can I help?";
+  const firstMessage = "Hi there! I'm the Jaden Wong's AI resume. How can I help?";
 
   const sendMessage = async () => {
     if (message.trim() === "") return; // Prevent sending empty messages
